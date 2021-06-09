@@ -6,8 +6,13 @@ This Day-Scheduler consists of a main page with function displaying date of toda
 ## Challenges
 
 In general it was really good exercise to build a project using JQuery 
+## User Story
+
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 
 ### Link
-[Quiz-Game](https://mohamedmesahel.github.io/Quiz-Game/)
+[Work-Day-Scheduler](https://mohamedmesahel.github.io/Work-Day-Scheduler/)
 
-![](../)
+![](./img/scheduler.png)
