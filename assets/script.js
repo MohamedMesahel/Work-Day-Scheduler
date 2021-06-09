@@ -58,6 +58,6 @@ $(document).ready(function () {
 })
 
 
-// handle displaying the time
+// Handle displaying the time
 
   setInterval(displayTime);
