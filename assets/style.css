@@ -32,7 +32,6 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
   border-top: 1px solid white;
 }
 
@@ -40,6 +39,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  
 }
 
 .past {
@@ -69,7 +69,8 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-@media screen and (max-width: 768px), screen and (max-width: 575px) {
+
+/* @media screen and (max-width: 768px), screen and (max-width: 575px) {
   .row {
     height: auto;
     margin-top: 20px;
@@ -89,4 +90,4 @@ textarea {
     min-height: 85px;
     border: 0;
   }
-}
+} */
