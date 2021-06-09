@@ -1,30 +1,28 @@
+// Declare Global variables
 var timeDisplayEl = $('#time-display');
-
+// Declare Display fucntion
 function displayTime() {
     var rightNow = moment().format("MMM Do YY");
     timeDisplayEl.text(rightNow);
   }
-  
+// Declare Inputs fucntions
 $(document).ready(function () {
-    // saveBtn click listener 
+// Declare eventlistner savebutton 
     $(".saveBtn").on("click", function () {
-        // Get nearby values of the description in JQuery
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
-
-        // Save text in local storage
+// Save inputs in local storage
         localStorage.setItem(time, text);
     })
    
     function timeTracker() {
-        //get current number of hours.
+//Declare current number of hours.
         var timeNow = moment().hour();
-
-        // loop over time blocks
+// Declare loop for time blocks
         $(".time-block").each(function () {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
-            // To check the time and add the classes for background indicators
+// Declare Statment for background indicators and compare inputs with time & colors
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
@@ -44,7 +42,7 @@ $(document).ready(function () {
         })
     }
 
-    // Get item from local storage if any
+// Retreive Data from local Stroage upon saving
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
