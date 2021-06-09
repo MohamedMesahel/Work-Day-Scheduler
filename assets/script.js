@@ -1,6 +1,10 @@
 var timeDisplayEl = $('#time-display');
 
-
+function displayTime() {
+    var rightNow = moment().format("MMM Do YY");
+    timeDisplayEl.text(rightNow);
+  }
+  
 $(document).ready(function () {
     // saveBtn click listener 
     $(".saveBtn").on("click", function () {
@@ -57,8 +61,5 @@ $(document).ready(function () {
 
 
 // handle displaying the time
-function displayTime() {
-    var rightNow = moment().format("MMM Do YY");
-    timeDisplayEl.text(rightNow);
-  }
+
   setInterval(displayTime);
