@@ -47,10 +47,10 @@ SO THAT I can manage my time effectively
 [Work-Day-Scheduler](https://mohamedmesahel.github.io/Work-Day-Scheduler/)
 
 ## Usage
-In order to use this application and store your appintments, you need to download the zip file.  :simple_smile:
+In order to use this application and store your appintments, you need to download the zip file.
 
 <p align="center">
-  <img alt="Light Mode" src="./img/webDemo.gif" width="60%"> 
+  <img alt="Light Mode" src="./img/webDemo.gif" width="45%"> 
 </p>
 
 ### Built With
