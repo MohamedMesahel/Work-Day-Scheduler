@@ -55,7 +55,7 @@ In order to use this application and store your appintments, you need to downloa
 
 ### Built With
 
-HTML, CSS, JavaScript, and JavaScript Momentjs.
+HTML, CSS, JavaScript, JQuery and Momentjs.
 
 * [Moment.js](https://momentjs.com/)
 * [Jquery.js](https://jquery.com/)
