@@ -48,6 +48,7 @@ SO THAT I can manage my time effectively
 
 ## Usage
 In order to use this application and store your appintments, you need to download the zip file.  :simple_smile:
+
 <p align="center">
   <img alt="Light Mode" src="./img/webDemo.gif" width="60%"> 
 </p>
