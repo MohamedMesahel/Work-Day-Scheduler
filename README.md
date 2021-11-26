@@ -50,7 +50,7 @@ SO THAT I can manage my time effectively
 In order to use this application and store your appintments, you need to download the zip file.
 
 <p align="center">
-  <img alt="Light Mode" src="./img/webDemo.gif" width="45%"> 
+  <img src="./img/webDemo.gif" width="45%"> 
 </p>
 
 ### Built With
