@@ -7,22 +7,22 @@ function displayTime() {
   }
 // Declare Inputs fucntions
 $(document).ready(function () {
-// Declare eventlistner savebutton 
+ // Declare eventlistner savebutton 
     $(".saveBtn").on("click", function () {
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
-// Save inputs in local storage
+ // Save inputs in local storage
         localStorage.setItem(time, text);
     })
    
     function timeTracker() {
-//Declare current number of hours.
+ //Declare current number of hours.
         var timeNow = moment().hour();
-// Declare loop for time blocks
+ // Declare loop for time blocks
         $(".time-block").each(function () {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
-// Declare Statment for background indicators and compare inputs with time & colors
+ // Declare Statment for background indicators and compare inputs with time & colors
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
@@ -42,7 +42,7 @@ $(document).ready(function () {
         })
     }
 
-// Retreive Data from local Stroage upon saving
+ // Retreive Data from local Stroage upon saving
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
